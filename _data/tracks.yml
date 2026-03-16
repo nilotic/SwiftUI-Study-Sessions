@@ -1,0 +1,36 @@
+- slug: basics
+  label: Basics
+  emoji: "🧩"
+  summary: Core views, view composition, and the declarative SwiftUI mental model.
+- slug: layout
+  label: Layout & Containers
+  emoji: "📐"
+  summary: Stacks, frames, lists, grids, geometry, and scroll-related layout behavior.
+- slug: navigation
+  label: Navigation & Presentation
+  emoji: "🧭"
+  summary: Screen structure, tabs, toolbars, destinations, sheets, and presentation flows.
+- slug: controls
+  label: Controls & Input
+  emoji: "🎛️"
+  summary: Text input, pickers, toggles, gestures, refresh actions, and interactive controls.
+- slug: state
+  label: State & Environment
+  emoji: "🔄"
+  summary: Property wrappers and shared model state that drive UI updates.
+- slug: animation
+  label: Animation & Transition
+  emoji: "✨"
+  summary: Implicit and explicit animation, transitions, timing, and animation plumbing.
+- slug: graphics
+  label: Graphics & Effects
+  emoji: "🎨"
+  summary: Gradients, masks, shaders, glass, paths, and rich visual rendering effects.
+- slug: adaptivity
+  label: Adaptivity
+  emoji: "📱"
+  summary: Dynamic type and scalable measurements that adapt the interface to context.
+- slug: concurrency
+  label: Concurrency
+  emoji: "🧵"
+  summary: Actors and main-thread isolation concepts commonly used with SwiftUI updates.
