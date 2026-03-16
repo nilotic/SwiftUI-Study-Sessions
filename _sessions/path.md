@@ -13,7 +13,7 @@ apple_docs:
 - label: Cubic Bezier.com
   url: https://cubic-bezier.com/#.17,.67,.81,.45
 homework:
-- Path 만들어 보기
+- Build a `Path`
 ---
 ```swift
     Path { path in
@@ -79,7 +79,7 @@ homework:
 #### De Casteljau's algorithm
 
   
-[https://en.wikipedia.org/wiki/De\_Casteljau%27s\_algorithm](https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm)
+[De Casteljau's algorithm](https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm)
 
 ![image-20241024-012004.png]({{ '/assets/sessions/path/image-20241024-012004-fcbd31a1.png' | relative_url }})
 

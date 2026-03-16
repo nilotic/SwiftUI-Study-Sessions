@@ -11,8 +11,8 @@ apple_docs:
 - label: How To Use Mainactor And Globalactor D5fd3794903d
   url: https://blog.devgenius.io/how-to-use-mainactor-and-globalactor-d5fd3794903d
 homework:
-- "@GlobalActor 를 사용하여 나만의 Actor 만들기"
-- 나만의 Actor 로 func 에 선언해 보기
+- Create a custom actor with `@GlobalActor`
+- Annotate a function with your custom actor
 ---
 ![Screenshot 2024-01-09 at 7.02.24 AM]({{ '/assets/sessions/globalactor/screenshot-2024-01-09-at-7-02-24-am-db01319f.png' | relative_url }})
 

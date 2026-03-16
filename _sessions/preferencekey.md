@@ -9,7 +9,7 @@ apple_docs:
 - label: What Is Preferencekey In Swiftui 3a3f0056b147
   url: https://medium.com/@fatihcyln/what-is-preferencekey-in-swiftui-3a3f0056b147
 homework:
-- Sample 따라해 보기
+- Recreate the sample
 ---
 ![1\*88ocgBi3trG7myZnfnlAKQ]({{ '/assets/sessions/preferencekey/1-88ocgbi3trg7myznfnlakq-1fb14a70.webp' | relative_url }})
 

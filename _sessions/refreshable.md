@@ -9,7 +9,7 @@ apple_docs:
 - label: How To Enable Pull To Refresh
   url: https://www.hackingwithswift.com/quick-start/swiftui/how-to-enable-pull-to-refresh
 homework:
-- Refreshable 적용해보기
+- Apply `Refreshable`
 ---
 ### Refreshable
 

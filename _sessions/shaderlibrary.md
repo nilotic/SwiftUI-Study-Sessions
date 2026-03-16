@@ -17,9 +17,8 @@ apple_docs:
 - label: Pl585ejqgh
   url: https://www.desmos.com/calculator/pl585ejqgh
 homework:
-- Demo 실행해 보기
-- "[SwiftUIShader.zip]({{ '/assets/sessions/shaderlibrary/swiftuishader-e98edeb4.zip'
-  | relative_url }})"
+- Run the demo
+- '<a href="/assets/sessions/shaderlibrary/swiftuishader-e98edeb4.zip">SwiftUIShader.zip</a>'
 ---
 ```swift
 struct ContentView: View {

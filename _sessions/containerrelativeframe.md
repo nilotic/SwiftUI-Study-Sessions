@@ -9,7 +9,7 @@ apple_docs:
 - label: Container Relative Frames In Swiftui
   url: https://swiftwithmajid.com/2025/01/28/container-relative-frames-in-swiftui/
 homework:
-- Sample 따라해 보기
+- Recreate the sample
 ---
 ```swift
 struct ContentView: View {

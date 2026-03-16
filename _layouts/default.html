@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/swiftui-mark.png' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/assets/swiftui-mark.png' | relative_url }}">
+    <meta name="theme-color" content="#1EAEFF">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -18,7 +21,7 @@
     <div class="site-shell">
       <header class="site-header">
         <a class="brand" href="{{ '/' | relative_url }}">
-          <img class="brand-mark" src="{{ '/assets/swiftui-mark.svg' | relative_url }}" alt="">
+          <img class="brand-mark" src="{{ '/assets/swiftui-mark.png' | relative_url }}" alt="SwiftUI mark">
           <span class="brand-title">{{ site.title }}</span>
         </a>
         <nav class="site-nav" aria-label="Primary">
@@ -31,32 +34,34 @@
         <aside class="site-sidebar">
           <section class="sidebar-panel">
             <div class="eyebrow">Tracks</div>
-            <div class="sidebar-groups">
-              {% for track in site.data.tracks %}
-              {% assign track_entries = site.data.session_catalog | where: "track", track.slug %}
-              <section class="sidebar-group">
-                <div class="sidebar-group-head">
-                  <span class="sidebar-group-title">
-                    <span class="sidebar-emoji" aria-hidden="true">{{ track.emoji }}</span>
-                    <span>{{ track.label }}</span>
-                  </span>
-                  <span class="sidebar-count">{{ track_entries | size }}</span>
-                </div>
-                <ul class="sidebar-subnav">
-                  {% for entry in track_entries %}
-                  <li>
-                    {% if entry.url %}
-                    <a class="sidebar-session-link{% if current_url == entry.url %} is-current{% endif %}" href="{{ entry.url | relative_url }}">
-                      {{ entry.title }}
-                    </a>
-                    {% else %}
-                    <span class="sidebar-session-label">{{ entry.title }}</span>
-                    {% endif %}
-                  </li>
-                  {% endfor %}
-                </ul>
-              </section>
-              {% endfor %}
+            <div class="sidebar-scroll">
+              <div class="sidebar-groups">
+                {% for track in site.data.tracks %}
+                {% assign track_entries = site.data.session_catalog | where: "track", track.slug %}
+                <section class="sidebar-group">
+                  <div class="sidebar-group-head">
+                    <span class="sidebar-group-title">
+                      <span class="sidebar-emoji" aria-hidden="true">{{ track.emoji }}</span>
+                      <span>{{ track.label }}</span>
+                    </span>
+                    <span class="sidebar-count">{{ track_entries | size }}</span>
+                  </div>
+                  <ul class="sidebar-subnav">
+                    {% for entry in track_entries %}
+                    <li>
+                      {% if entry.url %}
+                      <a class="sidebar-session-link{% if current_url == entry.url %} is-current{% endif %}" href="{{ entry.url | relative_url }}">
+                        {{ entry.title }}
+                      </a>
+                      {% else %}
+                      <span class="sidebar-session-label">{{ entry.title }}</span>
+                      {% endif %}
+                    </li>
+                    {% endfor %}
+                  </ul>
+                </section>
+                {% endfor %}
+              </div>
             </div>
           </section>
         </aside>

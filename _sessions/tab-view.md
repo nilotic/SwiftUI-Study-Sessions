@@ -9,8 +9,8 @@ apple_docs:
 - label: How To Create Scrolling Pages Of Content Using Tabviewstyle
   url: https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-scrolling-pages-of-content-using-tabviewstyle
 homework:
-- TabView 만들어보기
-- PageView 만들어보기
+- Build a `TabView`
+- Build a page view
 ---
 ```swift
 TabView {

@@ -9,7 +9,7 @@ apple_docs:
 - label: Animatabledata Swift.associatedtype
   url: https://developer.apple.com/documentation/swiftui/animatable/animatabledata-swift.associatedtype
 homework:
-- 데모 따라해 보기
+- Recreate the demo
 ---
 ### Shape
 

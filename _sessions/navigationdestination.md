@@ -11,7 +11,7 @@ apple_docs:
 - label: Navigationdestination(ispresented:destination:)
   url: https://developer.apple.com/documentation/swiftui/view/navigationdestination(ispresented:destination:)
 homework:
-- Sample 따라해 보기
+- Recreate the sample
 ---
 ```swift
 NavigationStack {

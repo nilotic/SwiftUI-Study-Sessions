@@ -7,11 +7,10 @@ apple_docs:
 - label: Building Lists And Navigation
   url: https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation
 homework:
-- NavigationView 추가하기
-- NavigationTitle 추가하기
-- NavigationLink 이용해서 상세화면으로 이동하는 거 해보기
-- "[Web.zip]({{ '/assets/sessions/navigation-view/web-edca3d80.zip' | relative_url
-  }})"
+- Add `NavigationView`
+- Add `NavigationTitle`
+- Use `NavigationLink` to move to a detail view
+- '<a href="/assets/sessions/navigation-view/web-edca3d80.zip">Web.zip</a>'
 ---
 ```swift
 struct LandmarkList: View {
@@ -46,9 +45,9 @@ struct LandmarkList: View {
 
 ### NavigationLink
 
-- [https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation)
+- [Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation)
 
-- [https://developer.apple.com/documentation/swiftui/navigationlink](https://developer.apple.com/documentation/swiftui/navigationlink)
+- [NavigationLink](https://developer.apple.com/documentation/swiftui/navigationlink)
 
   ```swift
 

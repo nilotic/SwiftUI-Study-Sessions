@@ -9,7 +9,7 @@ apple_docs:
 - label: How To Display A Bottom Sheet
   url: https://www.hackingwithswift.com/quick-start/swiftui/how-to-display-a-bottom-sheet
 homework:
-- Sample 따라해 보기
+- Recreate the sample
 ---
 ```swift
 struct ShowLicenseAgreement: View {

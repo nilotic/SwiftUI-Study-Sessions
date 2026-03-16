@@ -9,7 +9,7 @@ apple_docs:
 - label: Swiftui Multiline Textfield
   url: https://sarunw.com/posts/swiftui-multiline-textfield/
 homework:
-- TextField 만들어보기
+- Build a `TextField`
 ---
 ```swift
 @State private var username = ""

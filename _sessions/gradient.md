@@ -7,7 +7,7 @@ apple_docs:
 - label: How To Render A Gradient
   url: https://www.hackingwithswift.com/quick-start/swiftui/how-to-render-a-gradient
 homework:
-- Gradient 만들어보기
+- Build a gradient
 ---
 ### LinearGradient
 

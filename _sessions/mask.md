@@ -11,7 +11,7 @@ apple_docs:
 - label: 'Mask(alignment: :)'
   url: https://developer.apple.com/documentation/swiftui/view/mask(alignment:_:)
 homework:
-- Mask 적용해보기
+- Apply `Mask`
 ---
 ### Mask
 

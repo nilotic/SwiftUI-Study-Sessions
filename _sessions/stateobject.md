@@ -7,7 +7,7 @@ apple_docs:
 - label: Stateobject
   url: https://developer.apple.com/documentation/swiftui/stateobject
 homework:
-- ObservedObject 를 StateObject 로 변경해보기
+- Replace `ObservedObject` with `StateObject`
 ---
 ### View
 

@@ -9,7 +9,7 @@ apple_docs:
 - label: When Should You Use Containerrelativeshape
   url: https://www.hackingwithswift.com/quick-start/swiftui/when-should-you-use-containerrelativeshape
 homework:
-- Sample 따라해 보기
+- Recreate the sample
 ---
 ```swift
 Text("Hello World!")

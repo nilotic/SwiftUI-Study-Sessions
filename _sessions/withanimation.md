@@ -11,7 +11,7 @@ apple_docs:
 - label: SkeletonView
   url: https://github.com/thefarmersfront/kpds-ios/blob/f8d5672d52e495f68450b9a3454fd8c63a18cc0d/Sources/KPDS/Skeleton/SkeletonView.swift#L31
 homework:
-- ".animation 대신 withAnimation 으로 변경해보기"
+- Replace `.animation` with `withAnimation`
 ---
 ### Animation
 

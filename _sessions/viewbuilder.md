@@ -9,7 +9,7 @@ apple_docs:
 - label: Viewbuilder
   url: https://www.avanderlee.com/swiftui/viewbuilder/
 homework:
-- Sample 따라해 보기
+- Recreate the sample
 ---
 ```swift
 struct SampleView: View {

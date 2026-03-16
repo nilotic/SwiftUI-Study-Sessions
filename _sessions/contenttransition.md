@@ -9,7 +9,7 @@ apple_docs:
 - label: Numerictext(value:)
   url: https://developer.apple.com/documentation/swiftui/contenttransition/numerictext(value:)
 homework:
-- Number animation 적용해 보기
+- Apply number animation
 ---
 ![image-20240626-001930.png]({{ '/assets/sessions/contenttransition/image-20240626-001930-1a92ee13.png' | relative_url }})
 

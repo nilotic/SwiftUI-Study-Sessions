@@ -9,7 +9,7 @@ apple_docs:
 - label: Swiftui Stepper Onincrement Ondecrement
   url: https://seons-dev.tistory.com/entry/SwiftUI-Stepper-onIncrement-onDecrement
 homework:
-- 여러 가지 Stepper 만들어보기
+- Build several stepper variations
 ---
 ```swift
 struct ContentView: View {

@@ -9,7 +9,7 @@ apple_docs:
 - label: Swiftui Animations Part4
   url: https://swiftui-lab.com/swiftui-animations-part4/
 homework:
-- 간단한 TimelineView 만들어 보기
+- Build a simple `TimelineView`
 ---
 ```swift
 struct ManyFaces: View {

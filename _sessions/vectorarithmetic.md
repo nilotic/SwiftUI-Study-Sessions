@@ -9,7 +9,7 @@ apple_docs:
 - label: Swiftui Advanced Animation
   url: https://alexdremov.me/swiftui-advanced-animation/
 homework:
-- 나만의 VectorArithmetic 만들어 보기
+- Create a custom `VectorArithmetic`
 ---
 ### Shape
 

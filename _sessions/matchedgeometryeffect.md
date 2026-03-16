@@ -11,7 +11,7 @@ apple_docs:
 - label: '10041'
   url: https://developer.apple.com/videos/play/wwdc2020/10041/
 homework:
-- Sample 따라해 보기
+- Recreate the sample
 ---
 ```swift
 struct ContentView: View {

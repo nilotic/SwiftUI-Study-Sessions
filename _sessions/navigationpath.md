@@ -7,7 +7,7 @@ apple_docs:
 - label: Navigationpath
   url: https://developer.apple.com/documentation/swiftui/navigationpath
 homework:
-- Sample 따라해 보기
+- Recreate the sample
 ---
 ```swift
 

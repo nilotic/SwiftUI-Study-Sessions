@@ -11,7 +11,7 @@ apple_docs:
 - label: Init(wrappedvalue:relativeto:)
   url: https://developer.apple.com/documentation/swiftui/scaledmetric/init(wrappedvalue:relativeto:)?changes=__9
 homework:
-- ScaledMetric 사용하여 Dynamic Type 대응해보기
+- Use `ScaledMetric` to support Dynamic Type
 ---
 ```swift
 struct ContentView: View {

@@ -369,9 +369,12 @@ class ConfluenceImporter
     when "em", "i"
       "<em>#{node.children.map { |child| render_html_node(child, slug, attachments) }.join}</em>"
     when "a"
-      href = CGI.escapeHTML(node["href"].to_s)
+      raw_href = node["href"].to_s.strip
+      href = CGI.escapeHTML(raw_href)
       label = node.children.map { |child| render_html_node(child, slug, attachments) }.join
-      label = href if label.empty?
+      if cleanup_text(node.text).empty? || cleanup_text(node.text) == raw_href
+        label = CGI.escapeHTML(link_label(node.text.to_s, raw_href))
+      end
       "<a href=\"#{href}\">#{label}</a>"
     when "structured-macro"
       render_html_macro(node, slug, attachments)
@@ -468,7 +471,7 @@ class ConfluenceImporter
     when "a"
       href = node["href"].to_s.strip
       label = cleanup_text(node.text)
-      label = href if label.empty?
+      label = link_label(label, href)
       href.empty? ? label : "[#{escape_markdown_text(label)}](#{href})"
     when "br"
       "  \n"

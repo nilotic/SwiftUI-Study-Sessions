@@ -9,8 +9,8 @@ apple_docs:
 - label: Identifiable
   url: https://developer.apple.com/documentation/Swift/Identifiable
 homework:
-- List 를 이용해서 TableView 처럼 만들어보기
-- Identifier 를 사용하여 List 만들어보기
+- Use `List` to build a table-view style layout
+- Build a `List` using an identifier
 ---
 ```swift
 var body: some View {

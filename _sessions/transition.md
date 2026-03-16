@@ -11,7 +11,7 @@ apple_docs:
 - label: How To Create A Custom Transition
   url: https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-a-custom-transition
 homework:
-- Sample 따라해 보기
+- Recreate the sample
 ---
 ```swift
 struct ContentView: View {

@@ -9,7 +9,7 @@ apple_docs:
 - label: Understanding Frames And Coordinates Inside Geometryreader
   url: https://www.hackingwithswift.com/books/ios-swiftui/understanding-frames-and-coordinates-inside-geometryreader
 homework:
-- GeometryReader 활용해 보기
+- Use `GeometryReader`
 ---
 ```swift
 struct ContentView: View {

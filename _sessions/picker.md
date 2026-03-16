@@ -13,7 +13,7 @@ apple_docs:
 - label: '1086'
   url: https://ios-development.tistory.com/1086
 homework:
-- 여러 가지 Picker 만들어보기
+- Build several picker variations
 ---
 ```swift
 struct ContentView: View {

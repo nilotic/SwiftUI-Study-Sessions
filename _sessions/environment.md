@@ -11,8 +11,8 @@ apple_docs:
 - label: Environment( :)
   url: https://developer.apple.com/documentation/realitykit/model3d/environment(_:)/
 homework:
-- "@EnvironmentKey / Value 만들어보기"
-- ".environment 이용해서 필요한 값만 연결하기"
+- Create custom `@EnvironmentKey` / `EnvironmentValues`
+- Use `.environment` to pass only the values you need
 ---
 ### Key
 

@@ -9,7 +9,7 @@ apple_docs:
 - label: How To Override Animations With Transactions
   url: https://www.hackingwithswift.com/quick-start/swiftui/how-to-override-animations-with-transactions
 homework:
-- Sample 따라해 보기
+- Recreate the sample
 ---
 ```swift
     Button("Toggle Zoom") {

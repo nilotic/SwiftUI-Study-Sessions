@@ -9,7 +9,7 @@ apple_docs:
 - label: Listrowseparatorleading
   url: https://developer.apple.com/documentation/swiftui/horizontalalignment/listrowseparatorleading
 homework:
-- Sample 따라해 보기
+- Recreate the sample
 ---
 ```swift
 VStack {

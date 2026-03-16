@@ -7,7 +7,7 @@ apple_docs:
 - label: Menu
   url: https://developer.apple.com/documentation/swiftui/menu
 homework:
-- Sample 따라해 보기
+- Recreate the sample
 ---
 ```swift
 Menu("Actions") {

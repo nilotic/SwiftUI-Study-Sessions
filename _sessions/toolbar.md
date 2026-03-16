@@ -11,8 +11,8 @@ apple_docs:
 - label: How To Create A Toolbar And Add Buttons To It
   url: https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-a-toolbar-and-add-buttons-to-it
 homework:
-- Navigation Title 설정해보기
-- Back Button, Close Button 만들어보기
+- Configure the navigation title
+- Build back and close buttons
 ---
 ### ToolbarItem
 

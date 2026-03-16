@@ -7,7 +7,7 @@ apple_docs:
 - label: Presentationbackground( :)
   url: https://developer.apple.com/documentation/swiftui/view/presentationbackground(_:)?changes=_8
 homework:
-- presentationBackground 적용해 보기
+- Apply `presentationBackground`
 ---
 ```swift
 struct ContentView: View {

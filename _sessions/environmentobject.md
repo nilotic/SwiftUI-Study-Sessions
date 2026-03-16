@@ -9,8 +9,8 @@ apple_docs:
 - label: How To Use Environmentobject To Share Data Between Views
   url: https://www.hackingwithswift.com/quick-start/swiftui/how-to-use-environmentobject-to-share-data-between-views
 homework:
-- "@EnvironmentObject 으로 값 선언하기"
-- ".environmentObject 이용해서 값 연결하기"
+- Declare values with `@EnvironmentObject`
+- Pass values with `.environmentObject`
 ---
 ### View
 

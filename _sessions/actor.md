@@ -9,7 +9,7 @@ apple_docs:
 - label: Swift Actor 뿌시기 249aee2b732d
   url: https://sujinnaljin.medium.com/swift-actor-%EB%BF%8C%EC%8B%9C%EA%B8%B0-249aee2b732d
 homework:
-- Code 복사해서 Actor 만들어 보기
+- Copy the code and build an actor
 ---
 <video controls preload="metadata">
   <source src="{{ '/assets/sessions/actor/123123-2793d8de.mov' | relative_url }}" type="video/quicktime">

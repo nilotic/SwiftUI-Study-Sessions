@@ -11,8 +11,8 @@ apple_docs:
 - label: Dismiss
   url: https://developer.apple.com/documentation/swiftui/environmentvalues/dismiss
 homework:
-- Modal 창 띄워보기
-- Dismiss 이용해서 창 닫기
+- Present a modal view
+- Close the view using `dismiss`
 ---
 ### fullScreenCover
 

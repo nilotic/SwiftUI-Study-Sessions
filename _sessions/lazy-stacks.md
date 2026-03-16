@@ -9,8 +9,8 @@ apple_docs:
 - label: Lazyvstack
   url: https://developer.apple.com/documentation/swiftui/lazyvstack
 homework:
-- 0…1000 으로 - List - [ScrollView + VStack]- [ScrollView + LazyVStack] 만들어보기
-- '0…1000 으로- Pagination 구현해보기 (hint: LazyVStack)'
+- Build `List`, `ScrollView + VStack`, and `ScrollView + LazyVStack` with items from `0...1000`
+- 'Implement pagination with items from `0...1000` (hint: `LazyVStack`)'
 ---
 ### LazyHStack
 

@@ -7,7 +7,7 @@ apple_docs:
 - label: Hstack
   url: https://developer.apple.com/documentation/swiftui/hstack
 homework:
-- alignment 에 있는 3가지 케이스 만들어보기
+- Build the three alignment cases
 ---
 ```swift
 var body: some View {
@@ -23,8 +23,8 @@ var body: some View {
 
 ### Alignment, Spacing
 
-- [https://developer.apple.com/documentation/swiftui/alignment](https://developer.apple.com/documentation/swiftui/alignment)
+- [Alignment](https://developer.apple.com/documentation/swiftui/alignment)
 
-- [https://developer.apple.com/documentation/swiftui/hstacklayout/spacing/](https://developer.apple.com/documentation/swiftui/hstacklayout/spacing/)
+- [HStackLayout.spacing](https://developer.apple.com/documentation/swiftui/hstacklayout/spacing/)
 
   ![b20cmaqr9u591.jpg]({{ '/assets/sessions/hstack/b20cmaqr9u591-jpg-57d800c6.webp' | relative_url }})

@@ -9,7 +9,7 @@ apple_docs:
 - label: Landmarks Building An App With Liquid Glass
   url: https://developer.apple.com/documentation/SwiftUI/Landmarks-Building-an-app-with-Liquid-Glass
 homework:
-- Sample 따라해 보기
+- Recreate the sample
 ---
 ```swift
     GlassEffectContainer(spacing: 20) {

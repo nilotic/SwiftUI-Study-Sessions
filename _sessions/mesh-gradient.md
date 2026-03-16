@@ -7,7 +7,7 @@ apple_docs:
 - label: Meshgradient
   url: https://developer.apple.com/documentation/SwiftUI/MeshGradient
 homework:
-- Mesh Gradient 만들어보기
+- Build a `MeshGradient`
 ---
 ### MeshGradient
 

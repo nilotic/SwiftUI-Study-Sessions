@@ -9,11 +9,11 @@ apple_docs:
 - label: How To Use Mainactor To Run Code On The Main Queue
   url: https://www.hackingwithswift.com/quick-start/concurrency/how-to-use-mainactor-to-run-code-on-the-main-queue
 homework:
-- "@MainActor 를 class 최상단에 추가해보기"
-- "@MainActor 를 func 에 추가해보기"
-- "@MainActor 를 var 변수에만 추가해보기"
-- Task { @MainActor in 만들어 보기
-- await MainActor.run { } 만들어 보기
+- Add `@MainActor` to the top of the class
+- Add `@MainActor` to a function
+- Add `@MainActor` only to a property
+- Try `Task { @MainActor in }`
+- Try `await MainActor.run { }`
 ---
 ### class 전체
 

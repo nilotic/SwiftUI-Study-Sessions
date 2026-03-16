@@ -9,7 +9,7 @@ apple_docs:
 - label: '10151'
   url: https://developer.apple.com/videos/play/wwdc2024/10151/
 homework:
-- Sample 따라해 보기
+- Recreate the sample
 - |-
   ```swift
   struct ContentView: View {

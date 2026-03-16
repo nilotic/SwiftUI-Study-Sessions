@@ -13,8 +13,8 @@ apple_docs:
 - label: How To Insert Images Into Text
   url: https://www.hackingwithswift.com/quick-start/swiftui/how-to-insert-images-into-text
 homework:
-- Localized Key 로 바로 Text 그리기
-- Format Style 용해서 Text 활용해 보기
+- Render `Text` directly with a localized key
+- Use `FormatStyle` with `Text`
 ---
 ### Text(_:format:)
 

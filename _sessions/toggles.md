@@ -13,7 +13,7 @@ apple_docs:
 - label: Custom Swiftui Toggle Styles 1b41959cf975
   url: https://betterprogramming.pub/custom-swiftui-toggle-styles-1b41959cf975
 homework:
-- 여러 가지 Toggle 만들어보기
+- Build several toggle variations
 ---
 ### Toggle
 

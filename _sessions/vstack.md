@@ -7,8 +7,8 @@ apple_docs:
 - label: Vstack
   url: https://developer.apple.com/documentation/swiftui/vstack
 homework:
-- alignment 에 있는 3가지 케이스 만들어보기
-- AppStore Cell 따라해보기
+- Build the three alignment cases
+- Recreate an App Store cell
 ---
 ```swift
 var body: some View {
@@ -22,15 +22,15 @@ var body: some View {
 
 ### Alignment, Spacing
 
-- [https://developer.apple.com/documentation/swiftui/alignment](https://developer.apple.com/documentation/swiftui/alignment)
+- [Alignment](https://developer.apple.com/documentation/swiftui/alignment)
 
-- [https://developer.apple.com/documentation/swiftui/vstacklayout/spacing/](https://developer.apple.com/documentation/swiftui/vstacklayout/spacing/)
+- [VStackLayout.spacing](https://developer.apple.com/documentation/swiftui/vstacklayout/spacing/)
 
   ![hvxv7aqr9u591.jpg]({{ '/assets/sessions/vstack/hvxv7aqr9u591-jpg-e663b647.webp' | relative_url }})
 
 ### CornerRadius
 
-- [https://developer.apple.com/documentation/swiftui/view/cornerradius(\_:antialiased:)](https://developer.apple.com/documentation/swiftui/view/cornerradius(_:antialiased:))
+- [cornerRadius(_:antialiased:)](https://developer.apple.com/documentation/swiftui/view/cornerradius(_:antialiased:))
 
   ```swift
   Text("Rounded Corners")

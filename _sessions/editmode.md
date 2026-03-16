@@ -7,7 +7,7 @@ apple_docs:
 - label: Editmode
   url: https://developer.apple.com/documentation/swiftui/editmode
 homework:
-- Sample 따라해 보기
+- Recreate the sample
 ---
 ```swift
   @State var editMode: EditMode = .inactive

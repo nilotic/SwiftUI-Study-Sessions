@@ -7,7 +7,7 @@ apple_docs:
 - label: Zstack
   url: https://developer.apple.com/documentation/swiftui/zstack
 homework:
-- alignment 에 있는 9가지 케이스 만들어보기
+- Build the nine alignment cases
 ---
 ### ZStack
 
@@ -32,7 +32,7 @@ var body: some View {
 
 ### Alignment
 
-- [https://developer.apple.com/documentation/swiftui/alignment](https://developer.apple.com/documentation/swiftui/alignment)
+- [Alignment](https://developer.apple.com/documentation/swiftui/alignment)
 
   ![zstack-explained-with-images-v0-5wf25nhbi9391.jpg copy]({{ '/assets/sessions/zstack-alignment-frame/zstack-explained-with-images-v0-5wf25nhbi9391-jpg-copy-b481735f.png' | relative_url }})
 
@@ -42,7 +42,7 @@ var body: some View {
 
 ### Frame
 
-- [https://developer.apple.com/documentation/swiftui/view/frame(width:height:alignment:)](https://developer.apple.com/documentation/swiftui/view/frame(width:height:alignment:))
+- [frame(width:height:alignment:)](https://developer.apple.com/documentation/swiftui/view/frame(width:height:alignment:))
 
   ```swift
   Color.purple
