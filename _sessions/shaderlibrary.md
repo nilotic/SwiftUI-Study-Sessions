@@ -19,6 +19,10 @@ apple_docs:
 homework:
 - Run the demo
 - '<a href="/assets/sessions/shaderlibrary/swiftuishader-e98edeb4.zip">SwiftUIShader.zip</a>'
+homework_ko:
+- Demo 실행해 보기
+- "[SwiftUIShader.zip]({{ '/assets/sessions/shaderlibrary/swiftuishader-e98edeb4.zip'
+  | relative_url }})"
 ---
 ```swift
 struct ContentView: View {

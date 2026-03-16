@@ -12,6 +12,8 @@ apple_docs:
   url: https://www.hackingwithswift.com/books/ios-swiftui/understanding-frames-and-coordinates-inside-geometryreader
 homework:
 - Recreate the sample
+homework_ko:
+- Sample 따라해 보기
 ---
 ```swift
     ScrollView(.vertical, showsIndicators: false) {

@@ -10,6 +10,8 @@ apple_docs:
   url: https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-multi-line-editable-text-with-texteditor
 homework:
 - Build a `TextEditor`
+homework_ko:
+- TextEditor 만들어보기
 ---
 ```swift
 

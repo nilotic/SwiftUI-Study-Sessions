@@ -10,6 +10,8 @@ apple_docs:
   url: https://www.hackingwithswift.com/books/ios-swiftui/custom-modifiers
 homework:
 - Build a custom view with `ViewModifier`
+homework_ko:
+- ViewModifier 만들어서 Custom View 만들어보기
 ---
 ### BorderedCaption .swift
 

@@ -11,6 +11,9 @@ apple_docs:
 homework:
 - Declare values with `@EnvironmentObject`
 - Pass values with `.environmentObject`
+homework_ko:
+- "@EnvironmentObject 으로 값 선언하기"
+- ".environmentObject 이용해서 값 연결하기"
 ---
 ### View
 

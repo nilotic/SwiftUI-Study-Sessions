@@ -10,6 +10,8 @@ apple_docs:
   url: https://www.avanderlee.com/swiftui/viewbuilder/
 homework:
 - Recreate the sample
+homework_ko:
+- Sample 따라해 보기
 ---
 ```swift
 struct SampleView: View {

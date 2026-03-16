@@ -11,6 +11,9 @@ apple_docs:
 homework:
 - Use `List` to build a table-view style layout
 - Build a `List` using an identifier
+homework_ko:
+- List 를 이용해서 TableView 처럼 만들어보기
+- Identifier 를 사용하여 List 만들어보기
 ---
 ```swift
 var body: some View {

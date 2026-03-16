@@ -8,6 +8,8 @@ apple_docs:
   url: https://developer.apple.com/documentation/SwiftUI/MeshGradient
 homework:
 - Build a `MeshGradient`
+homework_ko:
+- Mesh Gradient 만들어보기
 ---
 ### MeshGradient
 

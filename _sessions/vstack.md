@@ -9,6 +9,9 @@ apple_docs:
 homework:
 - Build the three alignment cases
 - Recreate an App Store cell
+homework_ko:
+- alignment 에 있는 3가지 케이스 만들어보기
+- AppStore Cell 따라해보기
 ---
 ```swift
 var body: some View {

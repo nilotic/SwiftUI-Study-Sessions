@@ -12,6 +12,8 @@ apple_docs:
   url: https://www.hackingwithswift.com/quick-start/swiftui/how-to-specify-the-dynamic-type-sizes-a-view-supports
 homework:
 - Use `dynamicTypeSize` to support Dynamic Type
+homework_ko:
+- dynamicTypeSize 사용하여 Dynamic Type 대응해보기
 ---
 ```swift
 struct ContentView: View {

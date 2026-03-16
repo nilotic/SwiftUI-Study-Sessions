@@ -10,6 +10,8 @@ apple_docs:
   url: https://swiftui-lab.com/swiftui-animations-part4/
 homework:
 - Build a simple `TimelineView`
+homework_ko:
+- 간단한 TimelineView 만들어 보기
 ---
 ```swift
 struct ManyFaces: View {

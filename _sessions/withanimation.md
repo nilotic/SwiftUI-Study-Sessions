@@ -12,6 +12,8 @@ apple_docs:
   url: https://github.com/thefarmersfront/kpds-ios/blob/f8d5672d52e495f68450b9a3454fd8c63a18cc0d/Sources/KPDS/Skeleton/SkeletonView.swift#L31
 homework:
 - Replace `.animation` with `withAnimation`
+homework_ko:
+- ".animation 대신 withAnimation 으로 변경해보기"
 ---
 ### Animation
 

@@ -14,6 +14,8 @@ apple_docs:
   url: https://cubic-bezier.com/#.17,.67,.81,.45
 homework:
 - Build a `Path`
+homework_ko:
+- Path 만들어 보기
 ---
 ```swift
     Path { path in

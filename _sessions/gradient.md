@@ -8,6 +8,8 @@ apple_docs:
   url: https://www.hackingwithswift.com/quick-start/swiftui/how-to-render-a-gradient
 homework:
 - Build a gradient
+homework_ko:
+- Gradient 만들어보기
 ---
 ### LinearGradient
 

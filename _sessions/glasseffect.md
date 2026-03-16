@@ -10,6 +10,8 @@ apple_docs:
   url: https://developer.apple.com/documentation/SwiftUI/Landmarks-Building-an-app-with-Liquid-Glass
 homework:
 - Recreate the sample
+homework_ko:
+- Sample 따라해 보기
 ---
 ```swift
 Text("Hello, World!")

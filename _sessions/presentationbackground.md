@@ -8,6 +8,8 @@ apple_docs:
   url: https://developer.apple.com/documentation/swiftui/view/presentationbackground(_:)?changes=_8
 homework:
 - Apply `presentationBackground`
+homework_ko:
+- presentationBackground 적용해 보기
 ---
 ```swift
 struct ContentView: View {

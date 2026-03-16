@@ -18,6 +18,8 @@ apple_docs:
   url: https://swiftui-lab.com/impossible-grids/
 homework:
 - Build a product-list layout with `LazyVGrid`
+homework_ko:
+- LazyVGrid 상품 목록 형태 만들어보기
 ---
 ### GridItem
 

@@ -14,6 +14,8 @@ apple_docs:
   url: https://ios-development.tistory.com/1086
 homework:
 - Build several picker variations
+homework_ko:
+- 여러 가지 Picker 만들어보기
 ---
 ```swift
 struct ContentView: View {

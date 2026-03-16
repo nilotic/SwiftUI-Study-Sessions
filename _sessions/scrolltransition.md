@@ -10,6 +10,8 @@ apple_docs:
   url: https://blog.stackademic.com/swiftui-infinite-scrolling-slideshow-image-carousel-739244177bef
 homework:
 - Recreate the sample
+homework_ko:
+- Sample 따라해 보기
 ---
 ```swift
 Text(item.title)

@@ -10,6 +10,8 @@ apple_docs:
   url: https://www.hackingwithswift.com/quick-start/swiftui/how-to-enable-pull-to-refresh
 homework:
 - Apply `Refreshable`
+homework_ko:
+- Refreshable 적용해보기
 ---
 ### Refreshable
 

@@ -15,6 +15,9 @@ apple_docs:
 homework:
 - Render `Text` directly with a localized key
 - Use `FormatStyle` with `Text`
+homework_ko:
+- Localized Key 로 바로 Text 그리기
+- Format Style 용해서 Text 활용해 보기
 ---
 ### Text(_:format:)
 

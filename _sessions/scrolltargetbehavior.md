@@ -9,6 +9,9 @@ apple_docs:
 homework:
 - Set a target with `scrollTargetLayout`
 - Use `scrollTargetBehavior(.viewAligned)`
+homework_ko:
+- scrollTargetLayout 으로 target 지정해보기
+- scrollTargetBehavior(.viewAligned) 사용해보기
 ---
 ```swift
 ScrollView {

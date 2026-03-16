@@ -12,6 +12,8 @@ apple_docs:
   url: https://developer.apple.com/documentation/swiftui/view/mask(alignment:_:)
 homework:
 - Apply `Mask`
+homework_ko:
+- Mask 적용해보기
 ---
 ### Mask
 

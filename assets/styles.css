@@ -133,6 +133,12 @@ img {
   gap: 18px;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
 .site-nav a {
   position: relative;
   font-weight: 600;
@@ -142,6 +148,53 @@ img {
 .site-nav a:hover,
 .site-nav a:focus-visible {
   color: var(--ink);
+}
+
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.48);
+}
+
+.lang-button {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: transparent;
+  color: var(--ink-soft);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 180ms ease, color 180ms ease, transform 180ms ease;
+}
+
+.lang-button:hover,
+.lang-button:focus-visible {
+  color: var(--ink);
+  background: rgba(11, 143, 140, 0.1);
+}
+
+.lang-button.is-active {
+  background: var(--ink);
+  color: #fff;
+}
+
+.lang-flag {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.lang-code {
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
 }
 
 .page-content {
@@ -858,6 +911,10 @@ img {
 }
 
 @media (max-width: 960px) {
+  .site-shell {
+    padding: 24px 20px 72px;
+  }
+
   .site-frame,
   .hero-panel,
   .detail-stack,
@@ -869,11 +926,19 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .site-frame {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
   .site-sidebar {
+    order: 2;
     position: static;
+    width: 100%;
     max-height: none;
     overflow: visible;
-    padding-top: 24px;
+    padding-top: 0;
   }
 
   .sidebar-scroll {
@@ -884,29 +949,94 @@ img {
     mask-image: none;
   }
 
+  .page-content {
+    order: 1;
+    padding-top: 24px;
+  }
+
   .site-header {
+    position: static;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 100%;
     flex-direction: column;
     align-items: flex-start;
     border-radius: 24px;
   }
 
-  .site-nav {
+  .header-actions {
     width: 100%;
+    flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  .site-nav {
+    width: auto;
+    justify-content: flex-start;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+
+  .page-home .site-frame {
+    display: block;
+  }
+
+  .page-home .site-sidebar {
+    order: 1;
+  }
+
+  .page-home .page-content,
+  .page-home .site-footer {
+    display: none;
+  }
+
+  .page-sessions-index .site-frame {
+    display: block;
+  }
+
+  .page-sessions-index .site-sidebar {
+    order: 1;
+  }
+
+  .page-sessions-index .page-content,
+  .page-sessions-index .site-footer {
+    display: none;
+  }
+
+  .page-sessions-index .page-head {
+    display: none;
+  }
+
+  .page-sessions-index .sessions-filter-block {
+    display: none;
+  }
+
+  .page-sessions-index .sessions-list-block {
+    margin-top: 0;
+  }
+
+  .page-session-detail .site-sidebar {
+    display: none;
+  }
+
+  .page-session-detail .page-content {
+    order: 1;
+    padding-top: 24px;
   }
 }
 
 @media (max-width: 640px) {
   .site-shell {
-    padding: 110px 14px 72px;
+    padding: 18px 14px 64px;
   }
 
   .page-content {
-    padding-top: 24px;
+    padding-top: 18px;
   }
 
   .site-sidebar {
-    padding-top: 24px;
+    padding-top: 0;
   }
 
   .hero-panel,
@@ -925,11 +1055,22 @@ img {
 
   .hero-copy h1,
   .page-head h1 {
-    font-size: 2.2rem;
+    font-size: clamp(1.7rem, 8vw, 2rem);
+    line-height: 1.02;
   }
 
   .session-hero h1 {
     font-size: 1.7rem;
+  }
+
+  .site-header {
+    padding: 16px 18px;
+  }
+
+  .header-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
   }
 
   .session-row {
@@ -944,7 +1085,59 @@ img {
   }
 
   .site-nav {
-    gap: 12px;
+    gap: 10px;
     flex-wrap: wrap;
+    width: auto;
+    font-size: 0.95rem;
+  }
+
+  .language-switch {
+    gap: 4px;
+    padding: 3px;
+    margin-left: 0;
+    align-self: flex-start;
+  }
+
+  .lang-button {
+    padding: 6px 8px;
+    gap: 4px;
+  }
+
+  .lang-code {
+    display: none;
+  }
+
+  .home-hero {
+    display: none;
+  }
+
+  .home-tracks {
+    margin-top: 0;
+  }
+
+  .home-tracks-head {
+    margin-bottom: 12px;
+  }
+
+  .home-tracks-head h2,
+  .home-tracks-head p {
+    display: none;
+  }
+
+  .filter-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .filter-chip {
+    min-width: 0;
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 0.78rem;
+    line-height: 1.2;
+    text-align: center;
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 }

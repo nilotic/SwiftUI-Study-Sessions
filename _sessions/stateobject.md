@@ -8,6 +8,8 @@ apple_docs:
   url: https://developer.apple.com/documentation/swiftui/stateobject
 homework:
 - Replace `ObservedObject` with `StateObject`
+homework_ko:
+- ObservedObject 를 StateObject 로 변경해보기
 ---
 ### View
 

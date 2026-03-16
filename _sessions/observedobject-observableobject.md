@@ -10,6 +10,8 @@ apple_docs:
   url: https://developer.apple.com/documentation/swiftui/observedobject
 homework:
 - Build a simple view with `ObservedObject` and `ObservableObject`
+homework_ko:
+- ObservedObject, ObservableObject 만들어서 간단한 화면 만들어보기
 ---
 ### View
 

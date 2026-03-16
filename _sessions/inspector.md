@@ -12,6 +12,8 @@ apple_docs:
   url: https://blog.ravn.co/introduction-to-swiftuis-inspector/
 homework:
 - Recreate the sample
+homework_ko:
+- Sample 따라해 보기
 ---
 ![createwithswift.com-presenting-an-inspector-with-swiftui.jpg]({{ '/assets/sessions/inspector/createwithswift-com-presenting-an-inspector-with-swiftui-24c492b6.jpg' | relative_url }})
 

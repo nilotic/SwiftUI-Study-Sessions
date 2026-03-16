@@ -8,6 +8,8 @@ apple_docs:
   url: https://developer.apple.com/documentation/swiftui/hstack
 homework:
 - Build the three alignment cases
+homework_ko:
+- alignment 에 있는 3가지 케이스 만들어보기
 ---
 ```swift
 var body: some View {

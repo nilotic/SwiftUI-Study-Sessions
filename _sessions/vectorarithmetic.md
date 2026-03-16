@@ -10,6 +10,8 @@ apple_docs:
   url: https://alexdremov.me/swiftui-advanced-animation/
 homework:
 - Create a custom `VectorArithmetic`
+homework_ko:
+- 나만의 VectorArithmetic 만들어 보기
 ---
 ### Shape
 

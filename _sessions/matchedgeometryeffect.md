@@ -12,6 +12,8 @@ apple_docs:
   url: https://developer.apple.com/videos/play/wwdc2020/10041/
 homework:
 - Recreate the sample
+homework_ko:
+- Sample 따라해 보기
 ---
 ```swift
 struct ContentView: View {

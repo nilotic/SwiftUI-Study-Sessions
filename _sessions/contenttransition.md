@@ -10,6 +10,8 @@ apple_docs:
   url: https://developer.apple.com/documentation/swiftui/contenttransition/numerictext(value:)
 homework:
 - Apply number animation
+homework_ko:
+- Number animation 적용해 보기
 ---
 ![image-20240626-001930.png]({{ '/assets/sessions/contenttransition/image-20240626-001930-1a92ee13.png' | relative_url }})
 

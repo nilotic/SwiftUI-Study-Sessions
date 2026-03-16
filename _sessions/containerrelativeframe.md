@@ -10,6 +10,8 @@ apple_docs:
   url: https://swiftwithmajid.com/2025/01/28/container-relative-frames-in-swiftui/
 homework:
 - Recreate the sample
+homework_ko:
+- Sample 따라해 보기
 ---
 ```swift
 struct ContentView: View {

@@ -11,6 +11,9 @@ apple_docs:
 homework:
 - Build `List`, `ScrollView + VStack`, and `ScrollView + LazyVStack` with items from `0...1000`
 - 'Implement pagination with items from `0...1000` (hint: `LazyVStack`)'
+homework_ko:
+- 0…1000 으로 - List - [ScrollView + VStack]- [ScrollView + LazyVStack] 만들어보기
+- '0…1000 으로- Pagination 구현해보기 (hint: LazyVStack)'
 ---
 ### LazyHStack
 

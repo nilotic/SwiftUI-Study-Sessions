@@ -11,6 +11,12 @@ homework:
 - Add `NavigationTitle`
 - Use `NavigationLink` to move to a detail view
 - '<a href="/assets/sessions/navigation-view/web-edca3d80.zip">Web.zip</a>'
+homework_ko:
+- NavigationView 추가하기
+- NavigationTitle 추가하기
+- NavigationLink 이용해서 상세화면으로 이동하는 거 해보기
+- "[Web.zip]({{ '/assets/sessions/navigation-view/web-edca3d80.zip' | relative_url
+  }})"
 ---
 ```swift
 struct LandmarkList: View {

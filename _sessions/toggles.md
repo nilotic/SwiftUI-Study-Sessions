@@ -14,6 +14,8 @@ apple_docs:
   url: https://betterprogramming.pub/custom-swiftui-toggle-styles-1b41959cf975
 homework:
 - Build several toggle variations
+homework_ko:
+- 여러 가지 Toggle 만들어보기
 ---
 ### Toggle
 

@@ -8,6 +8,8 @@ apple_docs:
   url: https://developer.apple.com/documentation/swiftui/state
 homework:
 - Build `State` with several types (e.g. `String`, `Int`, `Float`, `Enum`)
+homework_ko:
+- 다양한 Type 의 State 만들어보기 ( Ex. String, Int, Float, Enum )
 ---
 ```swift
 struct PlayButton: View {

@@ -13,6 +13,9 @@ apple_docs:
 homework:
 - Create custom `@EnvironmentKey` / `EnvironmentValues`
 - Use `.environment` to pass only the values you need
+homework_ko:
+- "@EnvironmentKey / Value 만들어보기"
+- ".environment 이용해서 필요한 값만 연결하기"
 ---
 ### Key
 

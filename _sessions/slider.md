@@ -8,6 +8,8 @@ apple_docs:
   url: https://developer.apple.com/documentation/swiftui/slider
 homework:
 - Build several slider variations
+homework_ko:
+- 여러 가지 Slider 만들어보기
 ---
 ```swift
 @State private var value = 50.0

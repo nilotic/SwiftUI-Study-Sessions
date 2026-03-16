@@ -8,6 +8,8 @@ apple_docs:
   url: https://developer.apple.com/documentation/swiftui/zstack
 homework:
 - Build the nine alignment cases
+homework_ko:
+- alignment 에 있는 9가지 케이스 만들어보기
 ---
 ### ZStack
 

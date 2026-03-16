@@ -11,6 +11,9 @@ apple_docs:
 homework:
 - Build a `TabView`
 - Build a page view
+homework_ko:
+- TabView 만들어보기
+- PageView 만들어보기
 ---
 ```swift
 TabView {

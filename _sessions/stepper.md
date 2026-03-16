@@ -10,6 +10,8 @@ apple_docs:
   url: https://seons-dev.tistory.com/entry/SwiftUI-Stepper-onIncrement-onDecrement
 homework:
 - Build several stepper variations
+homework_ko:
+- 여러 가지 Stepper 만들어보기
 ---
 ```swift
 struct ContentView: View {

@@ -10,6 +10,8 @@ apple_docs:
   url: https://www.hackingwithswift.com/quick-start/swiftui/how-to-display-a-bottom-sheet
 homework:
 - Recreate the sample
+homework_ko:
+- Sample 따라해 보기
 ---
 ```swift
 struct ShowLicenseAgreement: View {

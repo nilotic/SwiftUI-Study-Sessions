@@ -3,16 +3,30 @@ layout: default
 ---
 {% assign track_info = site.data.tracks | where: "slug", page.track | first %}
 <article class="session-detail" data-reveal>
-  <a class="back-link" href="{{ '/sessions/' | relative_url }}">All sessions</a>
+  <a
+    class="back-link"
+    href="{{ '/sessions/' | relative_url }}"
+    data-i18n
+    data-en="{{ site.data.i18n.en.session.back }}"
+    data-ko="{{ site.data.i18n.ko.session.back }}"
+  >{{ site.data.i18n.en.session.back }}</a>
 
   <header class="session-hero">
-    <h1>{{ page.title }}</h1>
+    <h1
+      data-i18n
+      data-en="{{ page.title }}"
+      data-ko="{{ page.title_ko | default: page.title }}"
+    >{{ page.title }}</h1>
   </header>
 
   <section class="detail-stack">
     {% if page.apple_docs %}
     <section class="detail-card">
-      <h2>Documents</h2>
+      <h2
+        data-i18n
+        data-en="{{ site.data.i18n.en.session.documents }}"
+        data-ko="{{ site.data.i18n.ko.session.documents }}"
+      >{{ site.data.i18n.en.session.documents }}</h2>
       <ul class="link-list">
         {% for item in page.apple_docs %}
         <li><a href="{{ item.url }}">{{ item.label }}</a></li>
@@ -27,9 +41,19 @@ layout: default
 
     {% if page.takeaways %}
     <section class="detail-card">
-      <h2>Key</h2>
-      <ul>
+      <h2
+        data-i18n
+        data-en="{{ site.data.i18n.en.session.key }}"
+        data-ko="{{ site.data.i18n.ko.session.key }}"
+      >{{ site.data.i18n.en.session.key }}</h2>
+      <ul data-lang-content="en">
         {% for takeaway in page.takeaways %}
+        <li>{{ takeaway | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+      </ul>
+      <ul data-lang-content="ko" hidden>
+        {% assign ko_takeaways = page.takeaways_ko | default: page.takeaways %}
+        {% for takeaway in ko_takeaways %}
         <li>{{ takeaway | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}</li>
         {% endfor %}
       </ul>
@@ -38,9 +62,19 @@ layout: default
 
     {% if page.homework %}
     <section class="detail-card">
-      <h2>Homework</h2>
-      <ul>
+      <h2
+        data-i18n
+        data-en="{{ site.data.i18n.en.session.homework }}"
+        data-ko="{{ site.data.i18n.ko.session.homework }}"
+      >{{ site.data.i18n.en.session.homework }}</h2>
+      <ul data-lang-content="en">
         {% for item in page.homework %}
+        <li>{{ item | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+      </ul>
+      <ul data-lang-content="ko" hidden>
+        {% assign ko_homework = page.homework_ko | default: page.homework %}
+        {% for item in ko_homework %}
         <li>{{ item | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}</li>
         {% endfor %}
       </ul>

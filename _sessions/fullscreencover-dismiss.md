@@ -13,6 +13,9 @@ apple_docs:
 homework:
 - Present a modal view
 - Close the view using `dismiss`
+homework_ko:
+- Modal 창 띄워보기
+- Dismiss 이용해서 창 닫기
 ---
 ### fullScreenCover
 

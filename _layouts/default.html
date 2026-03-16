@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ page.description | default: site.description }}">
+    <meta
+      name="description"
+      content="{{ page.description | default: site.description }}"
+      data-en="{{ page.description | default: site.description }}"
+      data-ko="{{ page.description_ko | default: page.description | default: site.description }}"
+    >
     <link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/swiftui-mark.png' | relative_url }}">
     <link rel="apple-touch-icon" href="{{ '/assets/swiftui-mark.png' | relative_url }}">
     <meta name="theme-color" content="#1EAEFF">
@@ -13,7 +18,11 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
   </head>
-  <body>
+  <body
+    class="{% if page.url == '/' or page.url == '/index.html' %}page-home{% endif %}{% if page.url == '/sessions/' %}{% if page.url == '/' or page.url == '/index.html' %} {% endif %}page-sessions-index{% endif %}{% if page.collection == 'sessions' %}{% if page.url == '/' or page.url == '/index.html' or page.url == '/sessions/' %} {% endif %}page-session-detail{% endif %}"
+    data-title-en="{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}"
+    data-title-ko="{% if page.title_ko %}{{ page.title_ko | escape }} | {% elsif page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}"
+  >
     {% assign current_url = page.url | replace: 'index.html', '' %}
     {% assign sorted_sessions = site.sessions | sort: "order" %}
     <div class="ambient ambient-left"></div>
@@ -24,16 +33,43 @@
           <img class="brand-mark" src="{{ '/assets/swiftui-mark.png' | relative_url }}" alt="SwiftUI mark">
           <span class="brand-title">{{ site.title }}</span>
         </a>
-        <nav class="site-nav" aria-label="Primary">
-          <a href="{{ '/' | relative_url }}">Home</a>
-          <a href="{{ '/sessions/' | relative_url }}">Sessions</a>
-        </nav>
+        <div class="header-actions">
+          <nav class="site-nav" aria-label="Primary">
+            <a
+              href="{{ '/' | relative_url }}"
+              data-i18n
+              data-en="{{ site.data.i18n.en.nav.home }}"
+              data-ko="{{ site.data.i18n.ko.nav.home }}"
+            >{{ site.data.i18n.en.nav.home }}</a>
+            <a
+              href="{{ '/sessions/' | relative_url }}"
+              data-i18n
+              data-en="{{ site.data.i18n.en.nav.sessions }}"
+              data-ko="{{ site.data.i18n.ko.nav.sessions }}"
+            >{{ site.data.i18n.en.nav.sessions }}</a>
+          </nav>
+          <div class="language-switch" role="group" aria-label="{{ site.data.i18n.en.nav.language }}">
+            <button class="lang-button" type="button" data-lang-button="en" aria-pressed="false" title="Switch to English">
+              <span class="lang-flag" aria-hidden="true">🇺🇸</span>
+              <span class="lang-code">EN</span>
+            </button>
+            <button class="lang-button" type="button" data-lang-button="ko" aria-pressed="false" title="한국어로 전환">
+              <span class="lang-flag" aria-hidden="true">🇰🇷</span>
+              <span class="lang-code">KO</span>
+            </button>
+          </div>
+        </div>
       </header>
 
       <div class="site-frame">
         <aside class="site-sidebar">
           <section class="sidebar-panel">
-            <div class="eyebrow">Tracks</div>
+            <div
+              class="eyebrow"
+              data-i18n
+              data-en="{{ site.data.i18n.en.sidebar.tracks }}"
+              data-ko="{{ site.data.i18n.ko.sidebar.tracks }}"
+            >{{ site.data.i18n.en.sidebar.tracks }}</div>
             <div class="sidebar-scroll">
               <div class="sidebar-groups">
                 {% for track in site.data.tracks %}
@@ -42,7 +78,11 @@
                   <div class="sidebar-group-head">
                     <span class="sidebar-group-title">
                       <span class="sidebar-emoji" aria-hidden="true">{{ track.emoji }}</span>
-                      <span>{{ track.label }}</span>
+                      <span
+                        data-i18n
+                        data-en="{{ track.label }}"
+                        data-ko="{{ track.label_ko | default: track.label }}"
+                      >{{ track.label }}</span>
                     </span>
                     <span class="sidebar-count">{{ track_entries | size }}</span>
                   </div>
@@ -72,8 +112,19 @@
       </div>
 
       <footer class="site-footer">
-        <p>Built for a simple daily SwiftUI study flow and a durable GitHub Pages archive.</p>
-        <p class="footer-meta">Last updated {{ site.time | date: "%Y-%m-%d" }}</p>
+        <p
+          data-i18n
+          data-en="{{ site.data.i18n.en.footer.blurb }}"
+          data-ko="{{ site.data.i18n.ko.footer.blurb }}"
+        >{{ site.data.i18n.en.footer.blurb }}</p>
+        <p class="footer-meta">
+          <span
+            data-i18n
+            data-en="{{ site.data.i18n.en.footer.updated }}"
+            data-ko="{{ site.data.i18n.ko.footer.updated }}"
+          >{{ site.data.i18n.en.footer.updated }}</span>
+          {{ site.time | date: "%Y-%m-%d" }}
+        </p>
       </footer>
     </div>
 

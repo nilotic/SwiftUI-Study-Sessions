@@ -10,6 +10,8 @@ apple_docs:
   url: https://sarunw.com/posts/swiftui-multiline-textfield/
 homework:
 - Build a `TextField`
+homework_ko:
+- TextField 만들어보기
 ---
 ```swift
 @State private var username = ""

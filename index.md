@@ -1,36 +1,82 @@
 ---
 layout: default
 title: Home
+title_ko: 홈
 description: SwiftUI study archive for short daily sessions.
+description_ko: 짧은 SwiftUI 학습 세션을 모아둔 아카이브입니다.
 ---
-<section id="overview" class="hero-panel" data-reveal>
+<section id="overview" class="hero-panel home-hero" data-reveal>
   <div class="hero-copy">
-    <div class="eyebrow">Weekly Study</div>
-    <h1>SwiftUI Study Session</h1>
-    <p>
-      A simple place for five minutes of SwiftUI study a day.
-      Sessions are organized into a clear learning path, and each page keeps links, code, homework,
-      and attachments in one durable format.
-    </p>
+    <div
+      class="eyebrow"
+      data-i18n
+      data-en="{{ site.data.i18n.en.home.eyebrow }}"
+      data-ko="{{ site.data.i18n.ko.home.eyebrow }}"
+    >{{ site.data.i18n.en.home.eyebrow }}</div>
+    <h1
+      data-i18n
+      data-en="{{ site.data.i18n.en.home.title }}"
+      data-ko="{{ site.data.i18n.ko.home.title }}"
+    >{{ site.data.i18n.en.home.title }}</h1>
+    <p
+      data-i18n
+      data-en="{{ site.data.i18n.en.home.description }}"
+      data-ko="{{ site.data.i18n.ko.home.description }}"
+    >{{ site.data.i18n.en.home.description }}</p>
     <div class="hero-actions">
-      <a class="button-link primary" href="{{ '/sessions/' | relative_url }}">Browse Sessions</a>
+      <a
+        class="button-link primary"
+        href="{{ '/sessions/' | relative_url }}"
+        data-i18n
+        data-en="{{ site.data.i18n.en.home.cta }}"
+        data-ko="{{ site.data.i18n.ko.home.cta }}"
+      >{{ site.data.i18n.en.home.cta }}</a>
     </div>
   </div>
 </section>
 
-<section id="tracks" class="section-block" data-reveal>
-  <div class="section-head">
-    <div class="eyebrow">Tracks</div>
-    <h2>Use a learning flow, not a flat dump.</h2>
-    <p>The tracks follow the broad learning flow used in Apple&apos;s SwiftUI Concepts and Pathway, so sessions grow under a clear structure instead of becoming a flat dump.</p>
+<section id="tracks" class="section-block home-tracks" data-reveal>
+  <div class="section-head home-tracks-head">
+    <div
+      class="eyebrow"
+      data-i18n
+      data-en="{{ site.data.i18n.en.home.tracks_eyebrow }}"
+      data-ko="{{ site.data.i18n.ko.home.tracks_eyebrow }}"
+    >{{ site.data.i18n.en.home.tracks_eyebrow }}</div>
+    <h2
+      data-i18n
+      data-en="{{ site.data.i18n.en.home.tracks_title }}"
+      data-ko="{{ site.data.i18n.ko.home.tracks_title }}"
+    >{{ site.data.i18n.en.home.tracks_title }}</h2>
+    <p
+      data-i18n
+      data-en="{{ site.data.i18n.en.home.tracks_description }}"
+      data-ko="{{ site.data.i18n.ko.home.tracks_description }}"
+    >{{ site.data.i18n.en.home.tracks_description }}</p>
   </div>
   <div class="track-grid">
     {% for track in site.data.tracks %}
     {% assign track_entries = site.data.session_catalog | where: "track", track.slug %}
     <article class="track-card">
-      <h3><span class="track-emoji" aria-hidden="true">{{ track.emoji }}</span><span>{{ track.label }}</span></h3>
-      <p>{{ track.summary }}</p>
-      <div class="meta-inline">{{ track_entries | size }} topics</div>
+      <h3>
+        <span class="track-emoji" aria-hidden="true">{{ track.emoji }}</span>
+        <span
+          data-i18n
+          data-en="{{ track.label }}"
+          data-ko="{{ track.label_ko | default: track.label }}"
+        >{{ track.label }}</span>
+      </h3>
+      <p
+        data-i18n
+        data-en="{{ track.summary }}"
+        data-ko="{{ track.summary_ko | default: track.summary }}"
+      >{{ track.summary }}</p>
+      <div
+        class="meta-inline"
+        data-i18n
+        data-en="{{ track_entries | size }} topics"
+        data-ko="{{ track_entries | size }}개 주제"
+      >{{ track_entries | size }} topics</div>
     </article>
     {% endfor %}
   </div>

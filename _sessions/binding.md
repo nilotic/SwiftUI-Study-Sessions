@@ -8,6 +8,8 @@ apple_docs:
   url: https://developer.apple.com/documentation/swiftui/binding
 homework:
 - Create parent and child views and pass values with `@Binding`
+homework_ko:
+- Parent, Child View 만들어서 @Binding 으로 값 넘겨보기
 ---
 ### Parent
 

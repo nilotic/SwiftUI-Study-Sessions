@@ -10,6 +10,8 @@ apple_docs:
   url: https://developer.apple.com/documentation/swiftui/animatable/animatabledata-swift.associatedtype
 homework:
 - Recreate the demo
+homework_ko:
+- 데모 따라해 보기
 ---
 ### Shape
 

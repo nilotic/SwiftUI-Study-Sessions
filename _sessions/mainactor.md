@@ -14,6 +14,12 @@ homework:
 - Add `@MainActor` only to a property
 - Try `Task { @MainActor in }`
 - Try `await MainActor.run { }`
+homework_ko:
+- "@MainActor 를 class 최상단에 추가해보기"
+- "@MainActor 를 func 에 추가해보기"
+- "@MainActor 를 var 변수에만 추가해보기"
+- Task { @MainActor in 만들어 보기
+- await MainActor.run { } 만들어 보기
 ---
 ### class 전체
 

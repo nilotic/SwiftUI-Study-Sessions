@@ -8,6 +8,8 @@ apple_docs:
   url: https://developer.apple.com/documentation/swiftui/view/matchedtransitionsource(id:in:configuration:)
 homework:
 - Recreate the sample
+homework_ko:
+- Sample 따라해 보기
 ---
 <video controls preload="metadata">
   <source src="{{ '/assets/sessions/matchedtransitionsource/simulator-screen-recording-iphone-16-pro-2025-06-05-at-11-11-42-0fdcd3fd.mp4' | relative_url }}" type="video/mp4">

@@ -13,6 +13,9 @@ apple_docs:
 homework:
 - Configure the navigation title
 - Build back and close buttons
+homework_ko:
+- Navigation Title 설정해보기
+- Back Button, Close Button 만들어보기
 ---
 ### ToolbarItem
 

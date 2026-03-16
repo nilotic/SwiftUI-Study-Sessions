@@ -13,6 +13,9 @@ apple_docs:
 homework:
 - Create a custom actor with `@GlobalActor`
 - Annotate a function with your custom actor
+homework_ko:
+- "@GlobalActor 를 사용하여 나만의 Actor 만들기"
+- 나만의 Actor 로 func 에 선언해 보기
 ---
 ![Screenshot 2024-01-09 at 7.02.24 AM]({{ '/assets/sessions/globalactor/screenshot-2024-01-09-at-7-02-24-am-db01319f.png' | relative_url }})
 

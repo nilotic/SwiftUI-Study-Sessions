@@ -12,6 +12,8 @@ apple_docs:
   url: https://cubic-bezier.com/#.17,.67,.83,.67
 homework:
 - Build several animations with `easeIn`, `easeOut`, `.easeInOut`, `.smooth`, `.snappy`, and `.bouncy`
+homework_ko:
+- easeIn, easeOut, .easeInOut , .smooth , .snappy , .bouncy 다양한 Animation 만들어보기
 ---
 ```swift
 struct ContentView: View {

@@ -1,36 +1,54 @@
 - slug: basics
   label: Basics
+  label_ko: 기초
   emoji: "🧩"
   summary: Core views, view composition, and the declarative SwiftUI mental model.
+  summary_ko: 핵심 뷰, 뷰 조합, 그리고 선언형 SwiftUI 사고방식을 다룹니다.
 - slug: layout
   label: Layout & Containers
+  label_ko: 레이아웃과 컨테이너
   emoji: "📐"
   summary: Stacks, frames, lists, grids, geometry, and scroll-related layout behavior.
+  summary_ko: 스택, 프레임, 리스트, 그리드, 지오메트리, 그리고 스크롤 관련 레이아웃 동작을 다룹니다.
 - slug: navigation
   label: Navigation & Presentation
+  label_ko: 내비게이션과 프레젠테이션
   emoji: "🧭"
   summary: Screen structure, tabs, toolbars, destinations, sheets, and presentation flows.
+  summary_ko: 화면 구조, 탭, 툴바, destination, 시트, 그리고 화면 전환 흐름을 다룹니다.
 - slug: controls
   label: Controls & Input
+  label_ko: 컨트롤과 입력
   emoji: "🎛️"
   summary: Text input, pickers, toggles, gestures, refresh actions, and interactive controls.
+  summary_ko: 텍스트 입력, 피커, 토글, 제스처, 새로고침 액션, 그리고 다양한 입력 컨트롤을 다룹니다.
 - slug: state
   label: State & Environment
+  label_ko: 상태와 환경
   emoji: "🔄"
   summary: Property wrappers and shared model state that drive UI updates.
+  summary_ko: UI 업데이트를 이끄는 프로퍼티 래퍼와 공유 모델 상태를 다룹니다.
 - slug: animation
   label: Animation & Transition
+  label_ko: 애니메이션과 전환
   emoji: "✨"
   summary: Implicit and explicit animation, transitions, timing, and animation plumbing.
+  summary_ko: 암시적/명시적 애니메이션, 전환, 타이밍, 그리고 애니메이션의 기반 개념을 다룹니다.
 - slug: graphics
   label: Graphics & Effects
+  label_ko: 그래픽과 효과
   emoji: "🎨"
   summary: Gradients, masks, shaders, glass, paths, and rich visual rendering effects.
+  summary_ko: 그라디언트, 마스크, 셰이더, 글래스 효과, 패스, 그리고 풍부한 시각 효과를 다룹니다.
 - slug: adaptivity
   label: Adaptivity
+  label_ko: 적응형 UI
   emoji: "📱"
   summary: Dynamic type and scalable measurements that adapt the interface to context.
+  summary_ko: 상황에 따라 인터페이스가 적응하도록 돕는 Dynamic Type과 확장 가능한 치수를 다룹니다.
 - slug: concurrency
   label: Concurrency
+  label_ko: 동시성
   emoji: "🧵"
   summary: Actors and main-thread isolation concepts commonly used with SwiftUI updates.
+  summary_ko: SwiftUI 업데이트에서 자주 쓰이는 Actor와 메인 스레드 격리 개념을 다룹니다.

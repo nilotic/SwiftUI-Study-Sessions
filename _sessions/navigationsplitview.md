@@ -10,6 +10,8 @@ apple_docs:
   url: https://developer.apple.com/documentation/swiftui/landmarks-building-an-app-with-liquid-glass
 homework:
 - Recreate the sample
+homework_ko:
+- Sample 따라해 보기
 ---
 ### EditMode
 
