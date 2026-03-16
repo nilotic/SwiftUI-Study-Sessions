@@ -4,9 +4,9 @@ en:
     sessions: Sessions
     language: Language
   sidebar:
-    tracks: Tracks
+    tracks: Sessions
   footer:
-    blurb: Built for a simple daily SwiftUI study flow and a durable GitHub Pages archive.
+    blurb: Built for a simple daily SwiftUI study.
     updated: Last updated
   session:
     back: All sessions
@@ -18,13 +18,13 @@ en:
     title: SwiftUI Study Session
     description: A simple place for five minutes of SwiftUI study a day. Sessions are organized into a clear learning path, and each page keeps links, code, homework, and attachments in one durable format.
     cta: Browse Sessions
-    tracks_eyebrow: Tracks
+    tracks_eyebrow: Sessions
     tracks_title: Use a learning flow, not a flat dump.
-    tracks_description: The tracks follow the broad learning flow used in Apple's SwiftUI Concepts and Pathway, so sessions grow under a clear structure instead of becoming a flat dump.
+    tracks_description: The sessions follow a broad learning flow inspired by Apple's SwiftUI Concepts and Pathway, so the site stays structured instead of turning into a flat dump.
   sessions:
     eyebrow: Session Index
-    title: Study sessions
-    description: Filter sessions by track and scan the full archive in a compact list.
+    title: Sessions
+    description: Filter sessions and scan the full list in a compact view.
     all: All
 ko:
   nav:
@@ -32,9 +32,9 @@ ko:
     sessions: 세션
     language: 언어
   sidebar:
-    tracks: 트랙
+    tracks: 세션
   footer:
-    blurb: 짧고 꾸준한 SwiftUI 학습과 오래 남는 GitHub Pages 아카이브를 위해 만들었습니다.
+    blurb: 매일 가볍게 SwiftUI를 공부할 수 있도록 만들었습니다.
     updated: 마지막 업데이트
   session:
     back: 전체 세션
@@ -44,13 +44,13 @@ ko:
   home:
     eyebrow: Weekly Study
     title: SwiftUI Study Session
-    description: 하루 5분씩 SwiftUI를 가볍게 공부할 수 있도록 만든 아카이브입니다. 각 세션은 학습 흐름에 맞춰 정리되어 있고, 링크, 코드, 과제, 첨부 자료를 한 페이지에 모아두었습니다.
+    description: 하루 5분씩 가볍게 이어 볼 수 있는 SwiftUI 학습 세션입니다. 각 세션은 학습 흐름에 맞춰 정리되어 있고, 링크, 코드, 과제, 첨부 자료를 한 페이지에 모아두었습니다.
     cta: 세션 둘러보기
-    tracks_eyebrow: 트랙
-    tracks_title: 한 줄 목록보다 학습 흐름으로 보세요.
-    tracks_description: 트랙은 Apple의 SwiftUI Concepts와 Pathway의 큰 흐름을 참고해 구성해서, 세션이 단순한 목록이 아니라 학습 구조 안에서 쌓이도록 만들었습니다.
+    tracks_eyebrow: 세션
+    tracks_title: 한 번에 하나씩이 아니라, 연결된 학습 흐름으로 만나보세요.
+    tracks_description: 비슷한 세션을 한곳에 모아두고, 다음에 보면 좋은 내용까지 자연스럽게 이어지도록 구성했습니다. 처음부터 훑어도 되고, 필요한 부분부터 골라 봐도 됩니다.
   sessions:
     eyebrow: 세션 인덱스
-    title: 스터디 세션
-    description: 트랙별로 필터링하면서 전체 아카이브를 컴팩트한 목록으로 살펴보세요.
+    title: 세션
+    description: 세션을 필터링하면서 전체 목록을 컴팩트하게 살펴보세요.
     all: 전체

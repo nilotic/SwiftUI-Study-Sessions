@@ -3,8 +3,8 @@ layout: default
 title: Sessions
 title_ko: 세션
 permalink: /sessions/
-description: Browse SwiftUI study sessions by track.
-description_ko: 트랙별로 SwiftUI 스터디 세션을 둘러보세요.
+description: Browse SwiftUI sessions in one place.
+description_ko: SwiftUI 학습 세션을 한곳에서 둘러보세요.
 ---
 {% assign sorted_sessions = site.sessions | sort: "order" %}
 <section class="page-head" data-reveal>

@@ -2,8 +2,8 @@
 layout: default
 title: Home
 title_ko: 홈
-description: SwiftUI study archive for short daily sessions.
-description_ko: 짧은 SwiftUI 학습 세션을 모아둔 아카이브입니다.
+description: SwiftUI study pages for short daily sessions.
+description_ko: SwiftUI 학습 세션 모음입니다.
 ---
 <section id="overview" class="hero-panel home-hero" data-reveal>
   <div class="hero-copy">
